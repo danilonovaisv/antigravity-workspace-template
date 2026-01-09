@@ -44,6 +44,7 @@ So I built this project: **Antigravity Workspace Template**.
 ### Automated Installation (Recommended)
 
 **Linux / macOS:**
+
 ```bash
 # 1. Clone the template
 git clone https://github.com/study8677/antigravity-workspace-template.git my-project
@@ -62,6 +63,7 @@ python src/agent.py
 ```
 
 **Windows:**
+
 ```cmd
 # 1. Clone the template
 git clone https://github.com/study8677/antigravity-workspace-template.git my-project
@@ -115,21 +117,22 @@ This is **not** another LangChain wrapper. It's a minimal, transparent workspace
 
 ## 🚀 Key Features
 
-| Feature | Description |
-|---------|-------------|
+| Feature                | Description                                              |
+| ---------------------- | -------------------------------------------------------- |
 | 🧠 **Infinite Memory** | Recursive summarization compresses context automatically |
-| 🛠️ **Universal Tools** | Drop Python functions in `src/tools/` → auto-discovered |
-| 📚 **Auto Context** | Add files to `.context/` → auto-injected into prompts |
-| 🔌 **MCP Support** | Connect GitHub, databases, filesystems, custom servers |
-| 🤖 **Swarm Agents** | Multi-agent orchestration with Router-Worker pattern |
-| ⚡ **Gemini Native** | Optimized for Gemini 2.0 Flash |
-| 🌐 **LLM Agnostic** | Use OpenAI, Azure, Ollama, or any OpenAI-compatible API |
-| 📂 **Artifact-First** | Every task produces plans, logs, and evidence |
+| 🛠️ **Universal Tools** | Drop Python functions in `src/tools/` → auto-discovered  |
+| 📚 **Auto Context**    | Add files to `.context/` → auto-injected into prompts    |
+| 🔌 **MCP Support**     | Connect GitHub, databases, filesystems, custom servers   |
+| 🤖 **Swarm Agents**    | Multi-agent orchestration with Router-Worker pattern     |
+| ⚡ **Gemini Native**   | Optimized for Gemini 2.0 Flash                           |
+| 🌐 **LLM Agnostic**    | Use OpenAI, Azure, Ollama, or any OpenAI-compatible API  |
+| 📂 **Artifact-First**  | Every task produces plans, logs, and evidence            |
 
 ## 📚 Documentation
 
 **Full documentation available in `/docs/en/`:**
 
+- **[Foundation](docs/FOUNDATION.md)** — ✅ Core infrastructure achievements
 - **[Quick Start](docs/en/QUICK_START.md)** — Installation & deployment
 - **[Philosophy](docs/en/PHILOSOPHY.md)** — Core concepts & architecture
 - **[Zero-Config](docs/en/ZERO_CONFIG.md)** — Auto tool & context loading
@@ -196,6 +199,7 @@ result = swarm.execute("Build and review a calculator")
 ```
 
 The swarm automatically:
+
 - 📤 Routes to Coder, Reviewer, Researcher agents
 - 🧩 Synthesizes results
 - 📂 Saves artifacts
@@ -218,6 +222,7 @@ See [Roadmap](docs/en/ROADMAP.md) for details.
 ## 🤝 Contributing
 
 Ideas are contributions too! Open an [issue](https://github.com/study8677/antigravity-workspace-template/issues) to:
+
 - Report bugs
 - Suggest features
 - Propose architecture (Phase 9)
